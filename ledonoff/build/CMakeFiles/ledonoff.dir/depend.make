@@ -2146,7 +2146,6 @@ CMakeFiles/ledonoff.dir/ledonoff.c.obj: /home/pi/pico/pico-sdk/src/rp2_common/ha
 CMakeFiles/ledonoff.dir/ledonoff.c.obj: /home/pi/pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h
 CMakeFiles/ledonoff.dir/ledonoff.c.obj: /home/pi/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
 CMakeFiles/ledonoff.dir/ledonoff.c.obj: /home/pi/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h
-CMakeFiles/ledonoff.dir/ledonoff.c.obj: /home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h
 CMakeFiles/ledonoff.dir/ledonoff.c.obj: /home/pi/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h
 CMakeFiles/ledonoff.dir/ledonoff.c.obj: generated/pico_base/pico/config_autogen.h
 CMakeFiles/ledonoff.dir/ledonoff.c.obj: generated/pico_base/pico/version.h
