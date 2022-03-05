@@ -22,8 +22,7 @@ int main()
 
     while(1)
     {
-        // Get User Input
-        printf("Command (1 = on or 0 = off):\n");
+        // Get User Input        
         userInput = gpio_get(BUTTON_PIN);
 
         if(userInput == 1 && ledOnOff == 0)
@@ -32,7 +31,7 @@ int main()
             gpio_put(LED_PIN,1);
             printf("LED switched on!\n");
             ledOnOff = 1;
-            sleep_ms(1000);
+            sleep_ms(500);
         }
         else if(userInput == 1 && ledOnOff == 1)
         {
@@ -40,13 +39,7 @@ int main()
             gpio_put(LED_PIN,0);
             printf("LED switched off!\n");
             ledOnOff = 0;
-            sleep_ms(1000);
+            sleep_ms(500);
         }
-        else
-        {
-            printf("Invalid Input!\n");
-            sleep_ms(1000);
-        }    
-
     }
 }
